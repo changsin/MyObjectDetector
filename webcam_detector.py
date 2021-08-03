@@ -6,7 +6,7 @@ A simple webcam object detector using yolov5.
 """
 
 def detect_objects():
-    model = yolov5.load('yolov5s.pt')
+    model = yolov5.load('models/yolov5s.pt')
 
     cap = cv2.VideoCapture(0)
 
